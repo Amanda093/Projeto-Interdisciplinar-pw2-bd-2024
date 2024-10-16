@@ -1,0 +1,37 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+}
+image {
+  max-width: 100%;
+}
+p {
+  font-size: 20px;
+}
+
+input {
+  outline: 2px solid #ff4a57;
+  padding: 0.2em 0.3em;
+  border-radius: 0.3em;
+  font-size: 20px;
+}
+
+button {
+  padding: 0.5em 0.7em;
+  font-size: 1em;
+  border-radius: 0.75em;
+  background-color: #ff4a57;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s;
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-0.3em);
+    background-color: #d13741;
+  }
+}
